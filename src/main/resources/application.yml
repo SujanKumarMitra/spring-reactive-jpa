@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/guest"
+    username: "guest"
+    password: "guest"
+  jpa:
+    hibernate:
+      ddl-auto: "update"
